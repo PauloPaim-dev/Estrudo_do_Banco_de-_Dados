@@ -34,3 +34,17 @@ SHOW TABLES; => mostra as tabelas presente em um determinado banco de dados
 
 DESCRIBE livros; => mostra os campos de uma determinada tabela 
 
+
+INSERT => insere conteudo a tabela 
+
+SELECT => SELECIONAR 
+SELECT * FROM livros => SELECIIONAR TUDO DA TABELA livros
+
+UPDATE => ATUALIZA INFORMAÇÃO NA TABELA 
+
+UPDATE livros SET Preco = 25.99 WHERE ID = 1; => NESSE CASO ELE ATUALIZA O PREÇO NA TABELA livros PARA O VALOR 25.99
+OBS: A SEPARAÇÃO DAS CASA DECIMAIS É COM "." PONTO!
+
+DELETE => DELETA UMA DETERMINADA INFORMAÇÃO 
+
+DELETE FROM Livros WHERE ID = 3; => DELETA NA TABELA LIVRO A LINHA COM INDICI 3
