@@ -16,3 +16,21 @@ para executar uma linha especifica selecione a linha e use o "schift + f9"
 ]
 3- comando[Esse comando apaga todo banco de dados
 drop database senai;]
+
+
+criação de tabela
+
+CREATE DATABASE livraria; => cria um banco de dados com nome "livraria"
+USE livraria; => Seleciona o banco "livraria" ou click duplo em cima do banco
+CREATE TABLE livros(
+id INTEGER PRIMARY KEY auto_increment,
+Titulo TEXT NOT NULL,
+Autor TEXT NOT NULL,
+AnoPublicacao INTEGER,
+Preco DECIMAL(10,2)
+);
+
+SHOW TABLES; => mostra as tabelas presente em um determinado banco de dados
+
+DESCRIBE livros; => mostra os campos de uma determinada tabela 
+
