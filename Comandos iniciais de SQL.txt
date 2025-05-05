@@ -1,0 +1,18 @@
+- Usando o XAMPP e o HeidiSQL(IDE para mexer no banco) para testar comandos iniciais com SQL, podendo usar o dbeaver no local do HeidiSQL (Mesma funcionalidade) 
+	
+	* MYSQL Workbench(Será usado futuramente para recursos mais avançados.)
+
+
+cria primeiro banco
+
+1- comando [
+create database senai;(Cria a base)
+para executar atalho "f9" todo o código
+]
+obs(sempre finalizar com ";")
+2- coamndo [
+use senai;
+para executar uma linha especifica selecione a linha e use o "schift + f9"
+]
+3- comando[Esse comando apaga todo banco de dados
+drop database senai;]
