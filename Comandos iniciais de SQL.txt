@@ -10,9 +10,9 @@ create database senai;(Cria a base)
 para executar atalho "f9" todo o código
 ]
 obs(sempre finalizar com ";")
-2- coamndo [
+2- comando [
 use senai;
-para executar uma linha especifica selecione a linha e use o "schift + f9"
+para executar uma linha especifica selecione a linha e use o "ctrl + f9"
 ]
 3- comando[Esse comando apaga todo banco de dados
 drop database senai;]
