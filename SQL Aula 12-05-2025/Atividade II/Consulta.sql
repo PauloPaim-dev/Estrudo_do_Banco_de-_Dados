@@ -1,0 +1,1 @@
+SELECT nome, idade FROM alunos WHERE email LIKE '%@example.com'
